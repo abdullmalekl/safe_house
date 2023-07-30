@@ -1,17 +1,17 @@
 // import SimpleSlider from './home_helper/slick';
+import Slider from "../Slider/swiper";
 
-import { Fragment } from "react";
 
 const Home = ()=>{
     const products = ['AirSensor' , 'smoke sensor' ,'camera' , 'lounder'];
     const pstyle = {'color' : 'lightblue' , 'padding' : '50px' };
     return (
         <div className="App-header">
-            {/* <SimpleSlider /> */}
-           {products.map((el) =>(
+            <Slider />
+           {/* {products.map((el) =>(
             <div style={pstyle} >{el}</div>
            ))}
-           
+            */}
         </div>
     )
 }

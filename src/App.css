@@ -1,3 +1,6 @@
+.navBar{
+  background-color: lightgray;
+}
 ul li{
   list-style: none;
   display: inline-block;
@@ -53,13 +56,8 @@ ul li{
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2px;
+  
 }
 nav{
   justify-content: space-between;
