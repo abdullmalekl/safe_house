@@ -3,6 +3,7 @@ import Slider from "../Slider/swiper";
 
 
 const Home = ()=>{
+    const m = <h5>hello world</h5>;
     return (
         <div className="App-header">
             <Slider />
@@ -10,6 +11,7 @@ const Home = ()=>{
             <div style={pstyle} >{el}</div>
            ))}
             */}
+            {m}
         </div>
     )
 }
