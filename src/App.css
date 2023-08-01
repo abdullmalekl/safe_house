@@ -1,5 +1,23 @@
-.navBar{
-  background-color: lightgray;
+* {
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
 ul li{
   list-style: none;
@@ -53,10 +71,11 @@ ul li{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navBar{
+  background-color: #282c34 !important;
+}
 .App-header {
   background-color: #282c34;
-  margin: 2px;
   
 }
 nav{
@@ -74,4 +93,7 @@ nav{
   to {
     transform: rotate(360deg);
   }
+}
+.App{
+  overflow: auto;
 }
