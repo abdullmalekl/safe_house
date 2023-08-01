@@ -3,8 +3,6 @@ import Slider from "../Slider/swiper";
 
 
 const Home = ()=>{
-    const products = ['AirSensor' , 'smoke sensor' ,'camera' , 'lounder'];
-    const pstyle = {'color' : 'lightblue' , 'padding' : '50px' };
     return (
         <div className="App-header">
             <Slider />

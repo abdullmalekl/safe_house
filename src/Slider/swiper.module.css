@@ -1,4 +1,200 @@
-.slider{
-    cursor: pointer;
+
+.slide1{
+display: flex;
+margin-top: 24%;
+margin-right: 60px;
+}
+.slide2{
+    display: flex;
+
+    margin-top: 12%;
+    }
+.slide3{
+        display: flex;
+        margin-top: 24%;
+        margin-right: 60px;
+        }
+.h1s1{
+    margin-left: 748px;
+align-items: center;
+color:black;
+}
+.h1s2{
+margin-left: 84px;
+align-items: center;
+color:black;
+}
+.h1s3{
+    margin-left: 7%;
+align-items: center;
+color:white;
+}
+.s1h5{
+    display: flex;
+    justify-content: start;
+    color: black;
+    margin-left: 53%;
+    margin-right: 18px;
+}
+.s2h5{
+    display: flex;
+    color: black;
+    margin-top: 4px;
+    margin-left: 6%;
+    margin-right: 18px;
+}
+.s3h5{
+    display: flex;
+    color: white;
+    margin-left: 98px;
+    margin-right: 18px;
+
+}
+.s1btn1{
     
+    float: left;
+
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0 , 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 700px ;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 54px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s1btn1:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0 , 0.33);
+color: white;
+border: 4px solid rgb(255, 255, 255);
+}
+.s2btn1{
+    
+    float: left;
+
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0 , 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-left: 20px ;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 54px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s2btn1:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0 , 0.33);
+color: white;
+border: 4px solid rgb(255, 255, 255);
+}
+.s3btn1{
+    
+    float: left;
+
+    color: rgb(0, 0, 0);
+    border: 4px solid rgba(0, 0, 0 , 0.40);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-left: 40px ;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 54px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s3btn1:hover{
+    cursor: pointer;
+background-color: rgba(0, 0, 0 , 0.33);
+color: white;
+border: 4px solid rgb(255, 255, 255);
+}
+.s1btn2{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 50% ;
+    margin-right: 60px;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 56px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s1btn2:hover{
+background-color: rgba(0, 0, 0, 0.33);
+color:black;
+border:  4px solid black;
+}
+.s2btn2{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-left: 12% ;
+    margin-right: 60px;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 56px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s2btn2:hover{
+background-color: rgba(0, 0, 0, 0.33);
+color:black;
+border:  4px solid black;
+}
+.s3btn2{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    margin-left: 10% ;
+    margin-right: 60px;
+    margin-bottom: 44px;
+    border-radius: 80px ;
+    height: 54px;
+    width: 160px;
+    
+    text-decoration: none;
+}
+.s3btn2:hover{
+background-color: rgba(0, 0, 0, 0.33);
+color:black;
+border:  4px solid black;
+/* transform: translateY(2px); */
 }
