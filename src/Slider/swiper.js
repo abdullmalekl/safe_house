@@ -48,12 +48,12 @@ const Slider = () => {
         </div>
         <h5 className={styles.s1h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
         <h5 className={styles.s1h5}>You can controll your home just from your phone.</h5>
-        <div class="container">
-        <div class="row">
-          <div class="col-sm">
+        <div className="container">
+        <div className="row">
+          <div className="col-sm">
           <a className={styles.s1btn1}><h4>Contact us!</h4></a>
           </div>
-          <div class="col-sm">
+          <div className="col-sm">
           <a className={styles.s1btn2}><h4>Products</h4></a>
           </div>
           
@@ -77,12 +77,12 @@ const Slider = () => {
         </div>
         <h5 className={styles.s2h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
         <h5 className={styles.s2h5}>You can controll your home just from your phone.</h5>
-        <div class="container">
-        <div class="row">
-          <div class="col-2">
+        <div className="container">
+        <div className="row">
+          <div className="col-2">
           <a className={styles.s2btn1}><h4>Contact us!</h4></a>
           </div>
-          <div class="col-10">
+          <div className="col-10">
           <a className={styles.s2btn2}><h4>Products</h4></a>
           </div>
           
@@ -101,12 +101,12 @@ const Slider = () => {
         </div>
         <h5 className={styles.s3h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
         <h5 className={styles.s3h5}>You can controll your home just from your phone.</h5>
-        <div class="container">
-        <div class="row">
-          <div class="col-2">
+        <div className="container">
+        <div className="row">
+          <div className="col-2">
           <a className={styles.s3btn1}><h4>Contact us!</h4></a>
           </div>
-          <div class="col-10">
+          <div className="col-10">
           <a className={styles.s3btn2}><h4>Products</h4></a>
           </div>
           
