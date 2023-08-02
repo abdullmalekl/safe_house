@@ -45,11 +45,11 @@ const Slider = () => {
         <div className={styles.content} >
           <h1 className={styles.h1s1}>All devices between your hand<br/>
           Control from Any where in world</h1>
-        
-        <h5 className={styles.s1h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
-        <h5 className={styles.s1h5}>You can controll your home just from your phone.</h5>
-          <a className={styles.s1btn1}><h4>Contact us!</h4></a>
-          <a className={styles.s1btn2}><h4>Products</h4></a>
+        <h5 className={styles.s1h5}>
+          SafeHouse is a completely Iot System to controll devices from internet. <br />
+        You can controll your home just from your phone.
+         </h5>
+          <a className={styles.s1btn1}>Contact us!</a>  <a className={styles.s1btn2}>Products</a>
           </div>
       </Slide>
       

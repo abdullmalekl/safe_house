@@ -38,4 +38,5 @@
 .btn1:hover{
  color:#61DBFB;
  border: 3px solid #61DBFB;
+ box-shadow: 0 0 1vh 0.3vw #61DBFB;
 }
