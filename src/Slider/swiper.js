@@ -36,33 +36,21 @@ const Slider = () => {
     }}
     >
      
-      <Slide  
+      <Slide  className={styles.slide1}
       background={{
         backgroundImageSrc:photo1,
         backgroundAttachment: "fixed"
       }}
       >
-        <div className={styles.slide1}>
+        <div className={styles.content} >
           <h1 className={styles.h1s1}>All devices between your hand<br/>
           Control from Any where in world</h1>
-        </div>
+        
         <h5 className={styles.s1h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
         <h5 className={styles.s1h5}>You can controll your home just from your phone.</h5>
-        <div className="container">
-        <div className="row">
-          <div className="col-sm">
           <a className={styles.s1btn1}><h4>Contact us!</h4></a>
-          </div>
-          <div className="col-sm">
           <a className={styles.s1btn2}><h4>Products</h4></a>
           </div>
-          
-        </div>
-      </div>
-        
-          
-          
-        
       </Slide>
       
       <Slide 

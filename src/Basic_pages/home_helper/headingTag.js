@@ -3,7 +3,7 @@ import styles from './home_helper.module.css';
 const headingTag = ()=>{
   return(
     <div className={styles.headingTag}>
-        <h3><b>House Control IOT Automation Platform</b></h3>
+        <h3>House Control IOT Automation Platform</h3>
     </div>
   );
 

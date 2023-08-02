@@ -6,7 +6,7 @@ function upnav() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand ><img width='160px' height='60px' src={Applogo}></img></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+       
         <ul>
             <li>
             <a id='FacebookButtons' className='btn btn-primary' href='https://www.facebook.com/khrwat.kh'><b>F</b></a>

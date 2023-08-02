@@ -1,15 +1,19 @@
 #navBar{
     font-family:'Times New Roman', Times, serif !important;
-    font-size: 24px;
+    font-size: 20px;
+    width:100% !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     
     background-color: #282c34 !important;
   }
 #home{
     color: white !important;
-    font-size: 28px;
+    font-size: 1.6rem;
 }
 #home:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -18,7 +22,8 @@
     color: white !important;
 }
 #products:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -27,7 +32,8 @@
     color: white !important;
 }
 #about:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -36,7 +42,8 @@
     color: white !important;
 }
 #news:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -45,7 +52,8 @@
     color: white !important;
 }
 #faq:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -54,7 +62,8 @@
     color: white !important;
 }
 #contact:hover{
-    /* text-decoration-color: lightblue !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
@@ -63,16 +72,20 @@
     color: white !important;
 }
 #language:hover{
-    /* text-decoration-color: black !important ; */
+    color: #61DBFB !important;
+    text-decoration-color: #61DBFB !important ;
     text-decoration-style: solid !important;
     text-decoration-line:underline;
     text-decoration: underline;
 }
 #search{
-    width: 420px;
+    width: 34vw;
     height: 42px;
     /* margin-right: 60px !important;
      */
+}
+#search:hover{
+    border:3px solid #61DBFB;
 }
 #sbutton{
     color: white;
@@ -83,6 +96,13 @@
     background-color: rgba(0,0,0,0.40)  !important   ;
     margin-right: 18px;
 }
+#sbutton:hover{
+    padding:4px;
+    color:#61DBFB;
+    border:3px solid #61DBFB;
+}
 #toggle{
     background-color: white !important;
+    
+    
 }
