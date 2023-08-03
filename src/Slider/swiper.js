@@ -31,8 +31,6 @@ const Slider = () => {
       shouldAutoplay:true,
       shouldDisplayButtons:true,
       autoplayDuration: 5000,
-      height:"100vh"
-      
     }}
     >
      
@@ -43,10 +41,10 @@ const Slider = () => {
       }}
       >
         <div className={styles.content} >
-          <h1 className={styles.h1s1}>All devices between your hand<br/>
-          Control from Any where in world</h1>
+          <h1 className={styles.h1s1}>All devices between your hand
+          control from Any where in world</h1>
         <h5 className={styles.s1h5}>
-          SafeHouse is a completely Iot System to controll devices from internet. <br />
+          SafeHouse is a completely Iot System to controll devices from internet.
         You can controll your home just from your phone.
          </h5>
           <a className={styles.s1btn1}>Contact us!</a>  <a className={styles.s1btn2}>Products</a>
@@ -60,18 +58,22 @@ const Slider = () => {
       }}
       >
         <div className={styles.slide2}>
-          <h1 className={styles.h1s2}>All devices between your hand<br/>
-          Control from Any where in world</h1>
+          <h1 className={styles.h1s2}>All devices between your hand control from Any where in world</h1>
         </div>
-        <h5 className={styles.s2h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
-        <h5 className={styles.s2h5}>You can controll your home just from your phone.</h5>
+        
+        <h5 className={styles.s2h5}>
+          SafeHouse is a completely Iot System to controll devices from internet. 
+        You can controll your home just from your phone.
+        </h5>
+        
+        
         <div className="container">
         <div className="row">
           <div className="col-2">
-          <a className={styles.s2btn1}><h4>Contact us!</h4></a>
+          <a className={styles.s2btn1}>Contact us!</a>
           </div>
           <div className="col-10">
-          <a className={styles.s2btn2}><h4>Products</h4></a>
+          <a className={styles.s2btn2}>Products</a>
           </div>
           
         </div>
@@ -84,18 +86,21 @@ const Slider = () => {
       }}
       >
         <div className={styles.slide3}>
-          <h1 className={styles.h1s3}>All devices between your hand<br/>
+          <h1 className={styles.h1s3}>All devices between your hand
           Control from Any where in world</h1>
         </div>
-        <h5 className={styles.s3h5}>SafeHouse is a completely Iot System to controll devices from internet.</h5>
-        <h5 className={styles.s3h5}>You can controll your home just from your phone.</h5>
+        <h5 className={styles.s3h5}>
+          SafeHouse is a completely Iot System to controll devices from internet.
+        You can controll your home just from your phone.
+        </h5>
+
         <div className="container">
         <div className="row">
           <div className="col-2">
-          <a className={styles.s3btn1}><h4>Contact us!</h4></a>
+          <a className={styles.s3btn1}>Contact us!</a>
           </div>
           <div className="col-10">
-          <a className={styles.s3btn2}><h4>Products</h4></a>
+          <a className={styles.s3btn2}>Products</a>
           </div>
           
         </div>
